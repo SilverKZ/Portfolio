@@ -6,27 +6,24 @@
 *,
 *:before,
 *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+       -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
-
 
 /*
  * Responsive images
 */
-
 img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 /*
  * Cursor change on hover on Buttons
 */
-
 input[type="submit"] {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 /*
@@ -83,4 +80,3 @@ textarea {
     color: #000;
     padding: 0.2em 0;
 }
-
