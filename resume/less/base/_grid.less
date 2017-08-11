@@ -1,0 +1,81 @@
+
+/*
+ *  Grid Box  
+ */
+ 
+.container {
+	padding-right: 15px;
+  	padding-left: 15px;
+  	margin-right: auto;
+  	margin-left: auto;
+  	
+  	&:after {
+  		content: "";
+  		display: table;
+  		clear: both;
+  	}
+  
+  	@media (min-width: 768px) {
+    	width: 750px;
+  	}
+	
+	@media (min-width: 992px) {
+	    width: 970px;
+	 }
+
+	@media (min-width: 1200px) {
+   		width: 1170px;
+  	}
+}
+
+.row() {
+
+	margin-right: -15px;
+  	margin-left: -15px;
+  	
+  	&:after {
+  		content: "";
+  		display: table;
+  		clear: both;
+  	}
+}
+
+
+.margin {
+	float: left;
+	margin-right: 15px;
+  	margin-left: 15px;
+}
+
+.col-xs(@column) {
+	.margin;
+	width: ~"calc((100% / 12) * @{column} - 30px)";
+}
+
+.col-es(@column) {
+	.margin;
+	@media (min-width: 480px) {
+		width: ~"calc((100% / 12) * @{column} - 30px)";
+	}
+}
+
+.col-sm(@column) {
+	.margin;
+	@media (min-width: 768px) {
+		width: ~"calc((100% / 12) * @{column} - 30px)";
+	}
+}
+
+.col-md(@column) {
+	.margin;
+	@media (min-width: 992px) {
+		width: ~"calc((100% / 12) * @{column} - 30px)";
+	}
+}
+
+.col-lg(@column) {
+	.margin;
+	@media (min-width: 1200px) {
+		width: ~"calc((100% / 12) * @{column} - 30px)";
+	}
+}

@@ -1,0 +1,119 @@
+
+/* Navigation */
+
+.header {
+	
+	/* Перестановка местами блоков Navigation и Logo */
+	@media (min-width: 992px) {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+}
+
+.nav-title, .nav {
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: bold;
+	width: 100%;
+
+	box-shadow: 0px 5px 10px 0px rgba(42, 73, 109, 0.6);
+}
+
+.nav-title {
+	background: @color-nav-title;
+
+	@media (min-width: 992px) {
+		display: none;
+	}
+}
+
+.nav {
+	background: @color-nav;
+
+	@media (min-width: 992px) {
+		text-align: center;
+		background: @color-nav-title;
+		font-size: 0;
+	}
+}
+
+.nav__list {
+	display: none;
+	padding: 0;
+	margin: 0;
+
+	@media (min-width: 992px) {
+		display: block;
+	}
+}
+
+.nav__item {
+	padding: 0;
+	display: block;
+	border-bottom: 1px solid @color-line;
+
+	@media (min-width: 992px) {
+		display: inline-block;
+		border-bottom: none;
+		margin-right: 34px;
+	}
+
+	@media (min-width: 1200px) {
+		margin-right: 73px;
+	}
+}
+
+.last-reset {
+	margin-right: 0;
+}
+
+.nav__link {
+
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+	letter-spacing: 4px;
+	display: inline-block;
+	padding: 22px 15px;
+	width: 100%;
+
+	&:visited, &:link {
+		color: @color-text;
+		text-decoration: none;
+	}
+
+	&:hover {
+		color: @color-link;
+		text-decoration: none;
+	}
+
+	@media (min-width: 992px) {
+		padding-left: 0;
+		padding-right: 0; 
+		
+		&:hover {
+			color: @color-link;
+		}
+	}		
+}
+
+.nav__link--table {
+
+	background: @color-nav-title;
+	position: relative;
+
+	&:after {
+		content: "";
+		display: block;
+		width: 25px;
+		height: 20px;
+		position: absolute;
+		top: 22px;
+		right: 17px;
+		background: url(../img/icons/navigation-icon.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
+
+/* End Navigation */
