@@ -1,0 +1,520 @@
+/* --------------- Specification --------------- */
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #000;
+}
+
+/* --------------- Block - Header --------------- */
+
+.header {
+    background: #353540 url(../img/bg-header.jpg) no-repeat center / cover;
+    height: 750px;
+    text-align: center;
+    color: #fff;
+}
+
+.navbar {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.navbar-brand {
+    line-height: 96px;
+    padding: 0;
+    margin-left: -15px;
+}
+
+.navbar-brand__left, .navbar-brand__right {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.navbar-brand__left {
+    color: rgb(98, 111, 228);
+    font-weight: bold;
+}
+
+.navbar-brand__right {
+    color: #fff;
+    margin-left: -8px;
+}
+
+.nav {
+    margin-right: -15px;
+}
+
+.nav-item {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 80px;
+    line-height: 100px;
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+.nav-item:hover, .nav-item:focus {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+    line-height: 100px;
+    margin-bottom: -3px;
+}
+
+.navbar-nav {
+    height: 100px;
+}
+
+.masthead {
+    text-align: center;
+}
+
+.masthead__title {
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 180px;
+}
+
+.masthead__descript {
+    font-size: 22px;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+
+.btn-offer {
+  border-radius: 2px;
+  border: none;
+  background-color: rgb(232, 69, 69);
+  width: 200px;
+  height: 46px;
+  margin-top: 27px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-offer:hover, .btn-offer:focus, .btn-offer:active {
+    background-color: #d53030;
+    border: none;
+}
+
+
+/* --------------- Block - Features --------------- */
+
+.features {
+    padding-top: 120px;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature__icon {
+    height: 60px;
+}
+
+.feature__title {
+    font-size: 14px;
+    color: rgb(45, 48, 51);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 33px;
+}
+
+.feature__descript {
+    font-size: 14px;
+    color: rgb(108, 114, 121);
+    line-height: 1.5;
+    margin-top: 26px;
+    margin-bottom: 75px;
+    padding: 0 15px;
+}
+
+/* --------------- Block - Works -------------- */
+
+.works {
+    padding-top: 50px;
+    padding-bottom: 103px;
+}
+
+.work {
+    margin-bottom: 26px;
+    width: 100%;
+    position: relative;
+}
+
+.work__img {
+    width: 100%;
+}
+
+.work__hover {
+    position: absolute;
+    background-color: rgba(255, 51, 51, 0.9);
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    -webkit-transition: top 0.3s ease-out;
+    -moz-transition: top 0.3s ease-out;
+    -ms-transition: top 0.3s ease-out;
+    -o-transition: top 0.3s ease-out;
+    transition: top 0.3s ease-out;
+    overflow: hidden;
+}
+
+.work:hover .work__hover {
+    top: 0;
+}
+
+.work__hover-name {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.work__hover-descript {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    margin-top: 12px;
+}
+
+.work__hover-name:hover, .work__hover-name:active,
+.work__hover-descript:hover, .work__hover-descript:active {
+    transition: all 0.1s ease;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/* --------------- Block - Team ----------- */
+
+.team {
+    padding-top: 125px;
+    padding-bottom: 118px;
+    background-color: #f1f2fd;
+}
+
+.person__foto {
+    width: 100%;
+}
+
+.person__name {
+    font-size: 22px;
+    color: rgb(45, 48, 51);
+    font-weight: bold;
+    margin-top: 27px;
+}
+
+.person__job {
+    font-size: 13px;
+    color: rgb(232, 69, 69);
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.person__descript {
+    font-size: 14px;
+    color: rgb(108, 114, 121);
+    line-height: 1.5;
+    margin-top: 22px;
+}
+
+.person__box {
+    border: 1px solid rgb(232, 236, 238);
+    width: 44px;
+    height: 44px;
+    margin-right: 5px;
+    margin-top: 25px;
+}
+
+.person__box_facebook {
+    background: #fff url(../img/social-facebook.png) no-repeat center center;
+}
+
+.person__box_facebook:hover  {
+    background: #fff url(../img/social-facebook-hover.png) no-repeat center center;
+    border: 1px solid #c3d7ff;
+}
+
+.person__box_twitter {
+    background: #fff url(../img/social-twitter.png) no-repeat center center;
+}
+
+.person__box_twitter:hover {
+    background: #fff url(../img/social-twitter-hover.png) no-repeat center center;
+    border: 1px solid #c3d7ff;
+}
+
+.person__box_linkedin {
+    background: #fff url(../img/social-linkedin.png) no-repeat center center;
+}
+
+.person__box_linkedin:hover {
+    background: #fff url(../img/social-linkedin-hover.png) no-repeat center center;
+    border: 1px solid #c3d7ff;
+}
+
+/* --------------- Block - Clients ----------- */
+
+.clients {
+    color: #fff;
+    background-color: #53354a;
+}
+
+.container-fluid_mod {
+    padding: 0;
+}
+
+.clients__foto {
+    background: #53354a url(../img/client.jpg) no-repeat top right;
+    height: 500px;
+}
+
+.clients__comment {
+    padding: 135px 15px 0 85px;
+    max-width: 570px;
+}
+
+.clients__text {
+    font-size: 36px;
+    font-style: italic;
+    line-height: 1.167;
+}
+
+.clients__author {
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+/* --------------- Block - Download ----------- */
+
+.download {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: rgb(45, 48, 51);
+    font-size: 13px;
+    text-align: center;
+}
+
+.download__title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.download__descript {
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.download__btn {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    border-radius: 2px;
+    background-color: rgb(232, 69, 69);
+    width: 280px;
+    height: 46px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 46px;
+}
+
+.download__btn:hover, .download__btn:active {
+    transition: all 0.1s ease;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #d53030;
+}
+
+/* --------------- Block - Footer --------------- */
+
+.footer {
+    padding-top: 85px;
+    padding-bottom: 70px;
+    background-color: #3a3e64;
+    border-bottom: 12px solid #313454;
+    color: rgba(255, 255, 255, 0.502);
+    text-align: center;
+}
+
+.footer__title {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer__descript {
+    line-height: 1.607;
+    font-size: 14px;
+}
+
+.footer__descript-mod {
+    color: #e84545;
+}
+
+.footer__descript-light {
+    color: #fff;
+}
+
+/* --------------- Media Queries --------------- */
+
+/* Medium Devices, Desktops (768px - 992px) */
+@media only screen and (max-width : 992px) {
+
+    .nav-item {
+        margin-right: 50px;
+    }
+
+    .masthead__title {
+        font-size: 35px;
+    }
+
+    .masthead__descript {
+        font-size: 18px;
+    }
+
+    .person {
+        margin-bottom: 40px;
+    }
+
+    .clients__comment {
+        padding-top: 145px;
+        padding-left: 60px;
+        padding-right: 30px;
+    }
+
+    .clients__text {
+        font-size: 25px;
+    }
+
+    .team {
+        padding-bottom: 80px;
+    }
+
+}
+
+/* Small Devices, Tablets (576px - 767px) */
+@media only screen and (max-width : 767px) {
+
+    .header {
+        height: 640px;
+    }
+
+    .nav {
+        -webkit-justify-content: space-between !important;
+        justify-content: space-between !important;
+        margin-left: -15px;
+    }
+
+    .navbar-brand {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .nav-item, .nav-item:hover, .nav-item:focus{
+        line-height: 60px;
+    }
+
+    .navbar-nav {
+        height: 60px;
+    }
+
+    .masthead__title {
+        margin-top: 100px;
+    }
+
+    .clients__foto {
+        height: 350px;
+    }
+
+    .clients__comment {
+        padding: 100px 50px 100px 50px;
+    }
+
+    .download__title, .download__descript {
+        text-align: center;
+    }
+
+    .footer__descript {
+        margin-bottom: 45px;
+    }
+
+   .footer {
+        padding-bottom: 20px;
+    }
+
+}
+
+/* Extra Small Devices, Phones (320px - 576px) */
+@media only screen and (max-width : 576px) {
+
+    .header {
+        height: 620px;
+    }
+
+    .navbar {
+        border-bottom: none;
+    }
+
+    .nav {
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .navbar-brand {
+        line-height: 1;
+        padding-top: 35px;
+        padding-bottom: 20px;
+    }
+
+    .nav-item, .nav-item:hover, .nav-item:focus{
+        line-height: 45px;
+        margin-right: 0;
+    }
+
+    .masthead__title {
+        margin-top: 80px;
+    }
+
+    .clients__foto {
+        background-position: 85% 0%;
+    }
+
+    .clients__comment {
+        padding: 50px;
+    }
+
+    .clients__text {
+        font-size: 20px;
+    }
+
+    .masthead__descript, .feature, 
+    .person, .footer__descript, .work {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .btn-offer {
+        margin-top: 37px;
+    }
+
+}
+    
