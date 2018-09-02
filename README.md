@@ -1,4 +1,4 @@
-![Image alt](https://github.com/SilverKZ/Portfolio/raw/master/image/photo.jpg)
+![Image alt](https://github.com/SilverKZ/Portfolio/raw/master/image/photo_min.jpg)
 # `Евгений Иваненко`
 ## `Верстальщик HTML/CSS, Junior Frontend разработчик`
 ### Профессиональные навыки
