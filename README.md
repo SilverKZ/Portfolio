@@ -11,7 +11,7 @@
 *	основы  Javascript, jQuery, Ajax, PHP (интерактивные элементы и эффекты, трансформации и анимация, параллакс, отправка почты и валидация данных формы с использование ajax, и т.п.);
 *	основы git и github.
 
-### Реализованные проекты по верстке сайтов (в данном профиле)
+### Реализованные проекты по верстке сайтов
 * [**Resume**](http://simple.pe.hu/sites/resume/) - верстка адаптивного сайта портфолио по PSD макетам для трех экранов, [код проекта](https://github.com/SilverKZ/Portfolio/tree/master/resume)
 * [**LAB Consult**](http://simple.pe.hu/sites/lab/) - верстка многостраничного адаптивного сайта по PSD макетам (форма обратной связи, галерея, яндекс-карта, слайдер, интеграция с WordPress), [код проекта](https://github.com/SilverKZ/Portfolio/tree/master/lab)
 * [**GirderSteel**](http://simple.pe.hu/sites/girder-steel/) - верстка адаптивного лендинга компании (производителя стальных конструкций) по PSD макетам (форма обратной связи, галерея, слайдер, интеграция с WordPress), [код проекта](https://github.com/SilverKZ/Portfolio/tree/master/girder-steel)
