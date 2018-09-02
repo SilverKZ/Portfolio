@@ -1,0 +1,335 @@
+body {
+    font-family: Tahoma, Arial, sans-serif;
+    color: #272c2f;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+div, p, form, input, a, span, button {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5em;
+    margin-bottom: 1.7em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.45em;
+    letter-spacing: .6px;
+}
+
+h2 {
+    text-align: center;
+    color: #003333;
+    line-height: 1;
+    font-size: 26px;
+}
+
+a, a:hover, a:active {
+    transition: all 0.2s ease;
+    text-decoration: none;
+    color: #fff;
+}
+
+.d-flex {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.header {
+    background: rgb(74,125,252) url(../img/bg.jpg) no-repeat center / cover;
+    height: 846px;
+    color: #fff;
+}
+
+.offer {
+    text-align: center;
+}
+
+.offer__logo {
+    margin-top: 68px;
+}
+
+.offer__title {
+    margin-top: 165px;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.407;
+    letter-spacing: .5px;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+ 
+.offer__contact {
+    margin-top: 19px;
+    padding: 20px 0; 
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 27.5px;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    letter-spacing: .6px;
+}
+
+.offer__contact:hover {
+    color: #3366ff;
+    background-color: #fff;
+} 
+
+.offer__next {
+    margin-top: 167px;
+    margin-bottom: 61px;
+    display: inline-block;
+}
+
+.about {
+    -webkit-box-shadow: box-shadow: 0 45 60px rgba(0,0,0,0.8);
+            box-shadow: 0 45 60px rgba(0,0,0,0.8);
+    padding-top: 111px;
+}
+
+.description {
+    margin-top: 83px;
+}
+
+.mission__title, .deserts__head-title {
+    font-size: 22px;
+    color: rgb(14, 27, 62);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 1;
+}
+
+.mission__title:after, .deserts__head-title:after {
+    content: "";
+    display: block;
+    background-color: rgb(45, 99, 235);
+    width: 72px;
+    height: 3px;
+    margin-top: 27px;
+}
+
+.mission {
+    width: 455px;
+}
+
+.mission__text {
+    font-size: 15px;
+    color: rgb(14, 27, 62);
+    line-height: 1.6;
+    margin-top: 31px;
+    margin-bottom: 0;
+    letter-spacing: .5px;
+}
+
+.mission__text span {
+    color:  #3366ff;
+    border-bottom: 1px solid #3366ff;
+}
+
+.mission__text_mb {
+    margin-top: 24px;
+}
+
+.deserts {
+    width: 403px;
+}
+
+.deserts__items {
+    margin-top: 40px;
+}
+
+.deserts__item {
+    margin-top: 26px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+.deserts__content {
+    margin-left: 23px;
+}
+
+.deserts__title {
+    font-size: 16px;
+    color: rgb(45, 99, 235);
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: .2px;
+}
+
+.deserts__text {
+    font-size: 15px;
+    color: rgba(47, 56, 59, 0.478);
+    line-height: 1.6;
+    letter-spacing: .2px;
+}
+
+.deserts__icon {
+    border-radius: 10px;
+    width: 52px;
+    height: 52px;
+}
+
+.deserts__icon_bug {
+    background: rgb(45, 99, 235) url(../img/bug.png) no-repeat center center;
+}
+
+.deserts__icon_storm {
+    background: rgb(45, 99, 235) url(../img/storm.png) no-repeat center center;
+}
+
+.deserts__icon_bell {
+    background: rgb(45, 99, 235) url(../img/bell.png) no-repeat center center;
+}
+
+.deserts__icon_camera {
+    background: rgb(45, 99, 235) url(../img/camera.png) no-repeat center center;
+}
+
+.advant {
+    margin-top: 118px;
+    margin-bottom: 118px;
+}
+
+.box-advant {
+    margin-top: 68px;
+}
+
+.box-advant__icon {
+    text-align: center;
+    width: 75px;
+    height: 75px;
+    border-width: 1px;
+    border-color: rgb(255, 162, 0);
+    border-style: solid;
+    border-radius: 50%;
+    margin: 0 auto;
+    font-size: 30px;
+    color: rgb(255, 162, 0);
+    text-transform: uppercase;
+    line-height: 75px;
+}
+
+.box-advant__icon_fill {
+    background-color: rgb(255, 162, 0);
+    color: rgb(255, 255, 255);
+}
+
+.box-advant__item {
+    width: 210px;
+}
+
+.box-advant__text {
+    margin-top: 16px;
+    font-size: 16px;
+    color: rgb(14, 27, 62);
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: .2px;
+}
+
+.contact {
+    background-color: rgb(230, 233, 241);
+    padding-top: 110px;
+    padding-bottom: 113px;
+}
+
+.contact-box {
+    text-align: center;
+}
+
+.contact-box__title {
+    font-size: 22px;
+    color: rgb(14, 27, 62);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.contact-box__text {
+    width: 410px;
+    font-size: 14px;
+    color: rgb(14, 27, 62);
+    line-height: 1.643;
+    margin: 23px auto 0 auto;
+}
+
+.contact-box__run {
+    display: block;
+    margin: 24px auto 0 auto;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 55px;
+    text-align: center;
+    width: 218px;
+    height: 55px;
+    background-color: rgb(45, 99, 235);
+    border-radius: 28px;
+}
+
+.contact-box__run:hover {
+    background-color: #577ef4;
+}
+
+.footer {
+    background-color: #06319e;
+    height: 113px;
+}
+
+.footer-box {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 113px;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+.footer-box__link {
+    height: 18px;
+    line-height: 1;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.6); 
+}
+
+
+
