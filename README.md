@@ -16,12 +16,12 @@
 * [**Resume**](https://promositekz.000webhostapp.com/resume/) - верстка адаптивного сайта портфолио по PSD макетам для трех экранов, [код проекта](https://github.com/SilverKZ/Portfolio/tree/master/resume)
 * [**LAB Consult**](http://simple.pe.hu/sites/lab/) - верстка многостраничного адаптивного сайта по PSD макетам (форма обратной связи, галерея, яндекс-карта, слайдер, интеграция с WordPress), [код проекта](https://github.com/SilverKZ/Portfolio/tree/master/lab)
 * [**GirderSteel**](http://simple.pe.hu/sites/girder-steel/) - верстка адаптивного лендинга компании (производителя стальных конструкций) по PSD макетам (форма обратной связи, галерея, слайдер, интеграция с WordPress), [код проекта](https://github.com/SilverKZ/Portfolio/tree/master/girder-steel)
-* [**Apollo**](http://simple.pe.hu/sites/apollo/) - верстка адаптивного лендинга хостинг компании по PSD макетам для трех экранов, [код проекта](https://github.com/SilverKZ/Portfolio/tree/master/apollo)
-* [**Organica**](http://simple.pe.hu/sites/organica/) - верстка одностраничного сайта по PSD макету, [код проекта](https://github.com/SilverKZ/Portfolio/tree/master/organica)
-* [**MyPortfolio**](http://simple.pe.hu/sites/name/) - верстка адаптивного лендинга по PSD макетам для трех экранов, [код проекта](https://github.com/SilverKZ/Portfolio/tree/master/name)
-* [**ActiveLive**](http://simple.pe.hu/sites/activelive/) - верстка адаптивного лендинга по PSD макетам для трех экранов, [код проекта](https://github.com/SilverKZ/Portfolio/tree/master/activelive)
-* [**Offer**](http://simple.pe.hu/sites/offer/) - верстка лендинга по PSD макету, [код проекта](https://github.com/SilverKZ/Portfolio/tree/master/offer)
-* [**Test**](http://simple.pe.hu/sites/test/) - верстка лендинга по PSD макету, [код проекта](https://github.com/SilverKZ/Portfolio/tree/master/test)
+* [**Apollo**](https://promositekz.000webhostapp.com/apollo/) - верстка адаптивного лендинга хостинг компании по PSD макетам для трех экранов, [код проекта](https://github.com/SilverKZ/Portfolio/tree/master/apollo)
+* [**Organica**](https://promositekz.000webhostapp.com/organica/) - верстка одностраничного сайта по PSD макету, [код проекта](https://github.com/SilverKZ/Portfolio/tree/master/organica)
+* [**MyPortfolio**](https://promositekz.000webhostapp.com/name/) - верстка адаптивного лендинга по PSD макетам для трех экранов, [код проекта](https://github.com/SilverKZ/Portfolio/tree/master/name)
+* [**ActiveLive**](https://promositekz.000webhostapp.com/activelive/) - верстка адаптивного лендинга по PSD макетам для трех экранов, [код проекта](https://github.com/SilverKZ/Portfolio/tree/master/activelive)
+* [**Offer**](https://promositekz.000webhostapp.com/offer/) - верстка лендинга по PSD макету, [код проекта](https://github.com/SilverKZ/Portfolio/tree/master/offer)
+* [**Test**](https://promositekz.000webhostapp.com/test/) - верстка лендинга по PSD макету, [код проекта](https://github.com/SilverKZ/Portfolio/tree/master/test)
 
 ### Образование и опыт по профессии
 * Онлайн-коучинг "Веб-верстальщик: Код фрилансера" (WayUp.in), 2018 год
