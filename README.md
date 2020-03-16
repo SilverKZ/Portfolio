@@ -15,6 +15,7 @@
 * [**НароднаяКачалка**](https://promositekz.000webhostapp.com/body/) - верстка страницы сайта по PSD макету, [код проекта](https://github.com/SilverKZ/Portfolio/tree/master/body)
 * [**СтройТепло**](https://promositekz.000webhostapp.com/build/) - верстка 2-x страниц сайта по PSD макету, [код проекта](https://github.com/SilverKZ/Portfolio/tree/master/build)
 * [**Flower**](https://promositekz.000webhostapp.com/flower/) - верстка страницы сайта по PSD макету, [код проекта](https://github.com/SilverKZ/Portfolio/tree/master/flower)
+* [**Catalog**](http://silverkaz.zzz.com.ua/catalog/) - создание мини-каталога (HTML, CSS, PHP, Sqlite, пагинация, сортировка), [код проекта](https://github.com/SilverKZ/Portfolio/tree/master/catalog)
 
 ### Контактные данные
 * +7 (777) 608-25-80
