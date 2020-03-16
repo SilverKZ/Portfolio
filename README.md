@@ -11,6 +11,7 @@
 * [**ActiveLive**](https://promositekz.000webhostapp.com/activelive/) - верстка адаптивного лендинга по PSD макетам для трех экранов, [код проекта](https://github.com/SilverKZ/Portfolio/tree/master/activelive)
 * [**Offer**](https://promositekz.000webhostapp.com/offer/) - верстка лендинга по PSD макету, [код проекта](https://github.com/SilverKZ/Portfolio/tree/master/offer)
 * [**Test**](https://promositekz.000webhostapp.com/test/) - верстка лендинга по PSD макету, [код проекта](https://github.com/SilverKZ/Portfolio/tree/master/test)
+* [**ФиксМед**](https://promositekz.000webhostapp.com/med/) - верстка страницы сайта по PSD макету, [код проекта](https://github.com/SilverKZ/Portfolio/tree/master/med)
 
 ### Контактные данные
 * +7 (777) 608-25-80
