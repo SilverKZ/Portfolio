@@ -1,6 +1,6 @@
 ![Image alt](https://github.com/SilverKZ/Portfolio/raw/master/image/photo_min.jpg)
 # `Евгений Иваненко`
-## `HTML/CSS, JavaScript, PHP`
+## `HTML/CSS, JavaScript, PHP, SQL`
 ### Реализованные проекты сайтов
 * [**Resume**](https://promositekz.000webhostapp.com/resume/) - верстка адаптивного сайта портфолио по PSD макетам для трех экранов, [код проекта](https://github.com/SilverKZ/Portfolio/tree/master/resume)
 * [**LAB Consult**](https://promositekz.000webhostapp.com/lab/) - верстка многостраничного адаптивного сайта по PSD макетам (форма обратной связи, галерея, яндекс-карта, слайдер, интеграция с WordPress), [код проекта](https://github.com/SilverKZ/Portfolio/tree/master/lab)
